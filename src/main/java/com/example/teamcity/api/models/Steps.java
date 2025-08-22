@@ -9,10 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-
-public class User extends BaseModel {
-    private String user;
-    private String password;
-
-
+public class Steps {
+    private Integer count;
+    private List<Step> step;
 }
