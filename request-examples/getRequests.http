@@ -1,5 +1,5 @@
 ### GET build by buildType
-GET http://admin:admin@192.168.0.155:8111//app/rest/buildTypes/id:id123
+GET http://admin:admin@192.168.0.155:8111//app/rest/projects/name:test_AljorMDpnl
 Accept: application/json
 
 ###
