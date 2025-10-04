@@ -1,0 +1,5 @@
+name: teamcity-setup
+author: K
+description: teamcity-setup
+runs:
+  using:
