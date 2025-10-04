@@ -1,7 +1,7 @@
 name: Run tests
 
 on:
-  workflow-calls:
+  workflow-call:
     inputs:
       package:
         description: api | ui
