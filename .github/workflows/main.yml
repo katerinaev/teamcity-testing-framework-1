@@ -5,11 +5,11 @@ on: push
 jobs:
   # Собирается бекенд и деплоится на стейдж/review app
   backend:
-    uses: ./.github/backend-stage.yml
+    uses: ./.github/workflows/backend-stage.yml
 
   # Собирается фронтенд и деплоится на стейдж/review app
   frontend:
-    uses: ./.github/frontend-stage.yml
+    uses: ./.github/workflows/frontend-stage.yml
 
   # Прогоняются API тесты
   automation-api:
