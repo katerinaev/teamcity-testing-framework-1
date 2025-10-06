@@ -13,7 +13,7 @@ runs:
     - name: Install ifconfig
       shell: bash
       run: |
-        docker run -rm ubuntu:24.04 bash -c "apt-get update && apt-get install -y net-tools"
+        docker run --rm ubuntu:24.04 bash -c "apt-get update && apt-get install -y net-tools"
 
     - name: Set up host environment variable
       shell: bash
